@@ -1,0 +1,11 @@
+{
+  "item.caafemod.cup_of_coffee": "Cup of Coffee",
+  "item.caafemod.empty_cup": "Empty Cup",
+  "item.caafemod.coffee_bean": "Coffee Bean",
+  "item.caafemod.roasted_coffee_bean": "Roasted Coffee Bean",
+
+  "block.caafemod.block_of_coffee_beans": "Block of Coffee Beans",
+  "block.caafemod.block_of_roasted_coffee_beans": "Block of Roasted Coffee Beans",
+
+  "creativetab.caafemod_tab": "Caafe Mod Tab"
+}

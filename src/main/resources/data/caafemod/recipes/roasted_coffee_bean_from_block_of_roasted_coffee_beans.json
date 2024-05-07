@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "roasted_coffee_bean",
+  "ingredients": [
+    {
+      "item": "caafemod:block_of_roasted_coffee_beans"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "caafemod:roasted_coffee_bean"
+  }
+}

@@ -1,6 +1,10 @@
 package net.caafe.caafemod;
 
 import com.mojang.logging.LogUtils;
+import net.caafe.caafemod.block.ModBlocks;
+import net.caafe.caafemod.item.ModCreativeModeTabs;
+import net.caafe.caafemod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -24,6 +28,11 @@ public class CaafeMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -37,6 +46,9 @@ public class CaafeMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+//        if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+//            event.accept(ModItems.COFFEE);
+//        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
