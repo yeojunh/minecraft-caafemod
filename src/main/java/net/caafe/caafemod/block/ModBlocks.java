@@ -1,6 +1,7 @@
 package net.caafe.caafemod.block;
 
 import net.caafe.caafemod.CaafeMod;
+import net.caafe.caafemod.block.custom.SoundBlock;
 import net.caafe.caafemod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -23,6 +24,8 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD)));
     public static final RegistryObject<Block> BLOCK_OF_ROASTED_COFFEE_BEANS = registerBlock("block_of_roasted_coffee_beans",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD)));
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_WOOD)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

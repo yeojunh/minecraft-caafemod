@@ -28,6 +28,7 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.BLOCK_OF_COFFEE_BEANS.get());
                         pOutput.accept(ModBlocks.BLOCK_OF_ROASTED_COFFEE_BEANS.get());
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                     })
                     .build());
 
