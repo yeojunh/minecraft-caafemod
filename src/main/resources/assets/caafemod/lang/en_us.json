@@ -6,11 +6,13 @@
 
   "item.caafemod.used_coffee_grounds": "Used Coffee Grounds",
   "item.caafemod.metal_detector": "Metal Detector",
+  "tooltip.caafemod.metal_detector.tooltip": "Finds valuables underground",
 
   "block.caafemod.block_of_coffee_beans": "Block of Coffee Beans",
   "block.caafemod.block_of_roasted_coffee_beans": "Block of Roasted Coffee Beans",
 
   "block.caafemod.sound_block": "Sound Block",
+  "tooltip.caafemod.sound_block.tooltip": "Makes sounds when right-clicked",
 
   "creativetab.caafemod_tab": "Caafe Mod Tab"
 }

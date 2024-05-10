@@ -21,7 +21,7 @@ public class ModItems {
 
     // custom behaviours
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector", () -> new MetalDetectorItem(new Item.Properties().durability(100)));
-    public static final RegistryObject<Item> USED_COFFEE_GROUNDS = ITEMS.register("used_coffee_grounds", () -> new FuelItem(new Item.Properties(), 400));
+    public static final RegistryObject<Item> USED_COFFEE_GROUNDS = ITEMS.register("used_coffee_grounds", () -> new FuelItem(new Item.Properties(), 400)); // cooks 2 items
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
