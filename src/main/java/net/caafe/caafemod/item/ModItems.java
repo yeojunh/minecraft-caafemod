@@ -11,11 +11,14 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, CaafeMod.MOD_ID);
 
-    public static final RegistryObject<Item> CUP_OF_COFFEE = ITEMS.register("cup_of_coffee", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> EMPTY_CUP = ITEMS.register("empty_cup", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> COFFEE_BEAN = ITEMS.register("coffee_bean", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ROASTED_COFFEE_BEAN = ITEMS.register("roasted_coffee_bean", () -> new Item(new Item.Properties()));
-    // custom items
+
+    // custom foods
+    public static final RegistryObject<Item> CUP_OF_COFFEE = ITEMS.register("cup_of_coffee", () -> new Item(new Item.Properties().food(ModFoods.CUP_OF_COFFEE)));
+
+    // custom behaviours
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector", () -> new MetalDetectorItem(new Item.Properties().durability(100)));
 
     public static void register(IEventBus eventBus) {
