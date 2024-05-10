@@ -19,15 +19,19 @@ public class ModCreativeModeTabs {
                     () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CUP_OF_COFFEE.get()))
                     .title(Component.translatable("creativetab.caafemod_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        // coffee - items
                         pOutput.accept(ModItems.CUP_OF_COFFEE.get());
-                        pOutput.accept(ModItems.COFFEE_BEAN.get());
                         pOutput.accept(ModItems.EMPTY_CUP.get());
+                        pOutput.accept(ModItems.COFFEE_BEAN.get());
                         pOutput.accept((ModItems.ROASTED_COFFEE_BEAN.get()));
+                        pOutput.accept((ModItems.USED_COFFEE_GROUNDS.get()));
 
-                        pOutput.accept((ModItems.METAL_DETECTOR.get()));
-
+                        // coffee - blocks
                         pOutput.accept(ModBlocks.BLOCK_OF_COFFEE_BEANS.get());
                         pOutput.accept(ModBlocks.BLOCK_OF_ROASTED_COFFEE_BEANS.get());
+
+                        // other
+                        pOutput.accept((ModItems.METAL_DETECTOR.get()));
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                     })
                     .build());
