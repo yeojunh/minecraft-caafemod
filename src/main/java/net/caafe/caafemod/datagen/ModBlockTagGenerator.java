@@ -2,9 +2,11 @@ package net.caafe.caafemod.datagen;
 
 import net.caafe.caafemod.CaafeMod;
 import net.caafe.caafemod.block.ModBlocks;
+import net.caafe.caafemod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -16,13 +18,15 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         super(output, lookupProvider, CaafeMod.MOD_ID, existingFileHelper);
     }
 
-    // equivalent to metal_detector_valuables.json in resources/data/caafemod/tags/blocks
-    // {
-    //  "values": [
-    //    "caafemod:block_of_coffee_beans",
-    //    "#forge:ores"
-    //  ]
-    // }
+    /**
+     * equivalent to metal_detector_valuables.json in resources/data/caafemod/tags/blocks
+     * {
+     *  "values": [
+     *    "caafemod:block_of_coffee_beans",
+     *    "#forge:ores"
+     *  ]
+     * }
+     */
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         // forge/tags/blocks/mineable/xxx.json equivalent
@@ -38,8 +42,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.SOUND_BLOCK.get());
 
         // metal detector tags (custom items) equivalent
-//        this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
-//                .add(ModBlocks.BLOCK_OF_COFFEE_BEANS.get()).addTag(Tags.Blocks.ORES);
-
+        this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
+                .addTag(Tags.Blocks.ORES);
     }
 }
