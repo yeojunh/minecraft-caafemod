@@ -1,5 +1,6 @@
 package net.caafe.caafemod.item.custom;
 
+import net.caafe.caafemod.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -63,8 +64,9 @@ public class MetalDetectorItem extends Item {
                 "(" + blockPos.getX() + ", " + blockPos.getY() + ", " + blockPos.getZ() + ")"));
     }
 
-    // only consider iron and diamond ores as valuable
+    // use ore tags to mark all ores as valuable, instead of hard coding:
+    // return state.is(Blocks.IRON_ORE) || state.is(Blocks.DIAMOND_ORE);
     private boolean isValuableBlock(BlockState state) {
-        return state.is(Blocks.IRON_ORE) || state.is(Blocks.DIAMOND_ORE);
+        return state.is(ModTags.Blocks.METAL_DETECTOR_VALUABLES);
     }
 }
