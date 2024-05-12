@@ -1,7 +1,11 @@
-// 1.20.4	2024-05-12T01:21:21.732221	Recipes
+// 1.20.4	2024-05-12T01:39:47.42491	Recipes
 3b0f5c1fbf7aed25455a114ddb76d1d88aa62ca5 data/caafemod/advancements/recipes/food/block_of_coffee_beans.json
+9c526721a88fe605b46dfc571961d6c7c28c358d data/caafemod/advancements/recipes/food/block_of_roasted_coffee_beans.json
 a4de0bfd1958e374c9eef03896c5c20356db9dc5 data/caafemod/advancements/recipes/food/coffee_bean.json
+03c2ef7660016f329aa3e49ec803003ea2d5f2e3 data/caafemod/advancements/recipes/food/roasted_coffee_bean.json
 a5940dbf19b6d6350aad0d5740c3f85b70161189 data/caafemod/recipes/block_of_coffee_beans.json
+b7cec970ec853c540e8760fc2ae4618e7521f4ae data/caafemod/recipes/block_of_roasted_coffee_beans.json
 5b6651bd8b3ea8e573096225026e1bfecfb05e91 data/caafemod/recipes/coffee_bean.json
+f3621f388d22f50417b0183ba3068452a9020ac3 data/caafemod/recipes/roasted_coffee_bean.json
 dca8da7968be25c203069cc307c97df4dfcf0f0c data/minecraft/advancements/recipes/food/roasted_coffee_bean_from_smelting_coffee_bean.json
 58bd093a527fd23df252538ff768c78531aaf3ea data/minecraft/recipes/roasted_coffee_bean_from_smelting_coffee_bean.json

@@ -31,9 +31,23 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.COFFEE_BEAN.get()), has(ModItems.COFFEE_BEAN.get()))
                 .save(recipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.FOOD, ModBlocks.BLOCK_OF_ROASTED_COFFEE_BEANS.get())
+                .pattern("###")
+                .pattern("###")
+                .pattern("###")
+                .define('#', ModItems.ROASTED_COFFEE_BEAN.get())
+                .unlockedBy(getHasName(ModItems.ROASTED_COFFEE_BEAN.get()), has(ModItems.ROASTED_COFFEE_BEAN.get()))
+                .save(recipeOutput);
+
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.COFFEE_BEAN.get(), 9)
                 .requires(ModBlocks.BLOCK_OF_COFFEE_BEANS.get())
                 .unlockedBy(getHasName(ModBlocks.BLOCK_OF_COFFEE_BEANS.get()), has(ModBlocks.BLOCK_OF_COFFEE_BEANS.get()))
+                .save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.ROASTED_COFFEE_BEAN.get(), 9)
+                .requires(ModBlocks.BLOCK_OF_ROASTED_COFFEE_BEANS.get())
+                .unlockedBy(getHasName(ModBlocks.BLOCK_OF_ROASTED_COFFEE_BEANS.get()), has(ModBlocks.BLOCK_OF_ROASTED_COFFEE_BEANS.get()))
                 .save(recipeOutput);
     }
 
