@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "caafemod:block/block_of_coffee_beans"
+  }
+}

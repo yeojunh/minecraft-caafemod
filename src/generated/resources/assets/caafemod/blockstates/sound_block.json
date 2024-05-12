@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "caafemod:block/sound_block"
+    }
+  }
+}

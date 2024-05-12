@@ -1,0 +1,4 @@
+// 1.20.4	2024-05-12T01:21:21.731868	Loot Tables
+05df6623de4a76953ad20347f2e1b747747d947b data/caafemod/loot_tables/blocks/block_of_coffee_beans.json
+8e5fa62e3f8cbcb0999e85a53527f7976bc6b0d1 data/caafemod/loot_tables/blocks/block_of_roasted_coffee_beans.json
+cb84534416cda1bdfba3a0a47188db0641e07299 data/caafemod/loot_tables/blocks/sound_block.json
