@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caafemod:block/cl4p_tp_slab"
+    },
+    "type=double": {
+      "model": "caafemod:block/cl4p_tp_block"
+    },
+    "type=top": {
+      "model": "caafemod:block/cl4p_tp_slab_top"
+    }
+  }
+}

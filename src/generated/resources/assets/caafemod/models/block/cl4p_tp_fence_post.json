@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "caafemod:block/cl4p_tp_block"
+  }
+}

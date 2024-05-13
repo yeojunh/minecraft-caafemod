@@ -8,6 +8,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer;
@@ -28,6 +29,19 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.BLOCK_OF_COFFEE_BEANS.get());
         this.dropSelf(ModBlocks.BLOCK_OF_ROASTED_COFFEE_BEANS.get());
         this.dropSelf(ModBlocks.SOUND_BLOCK.get());
+        this.dropSelf(ModBlocks.CL4P_TP_BLOCK.get());
+        this.dropSelf(ModBlocks.CL4P_TP_STAIRS.get());
+        this.dropSelf(ModBlocks.CL4P_TP_BUTTON.get());
+        this.dropSelf(ModBlocks.CL4P_TP_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.CL4P_TP_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.CL4P_TP_FENCE.get());
+        this.dropSelf(ModBlocks.CL4P_TP_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.CL4P_TP_WALL.get());
+
+        this.add(ModBlocks.CL4P_TP_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.CL4P_TP_SLAB.get()));
+        this.add(ModBlocks.CL4P_TP_DOOR.get(),
+                block -> createDoorTable(ModBlocks.CL4P_TP_DOOR.get()));
 
         // add drops for ores
 //        this.add(ModBlocks.SOME_ORE.get(),

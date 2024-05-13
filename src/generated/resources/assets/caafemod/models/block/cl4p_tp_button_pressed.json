@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "caafemod:block/cl4p_tp_block"
+  }
+}

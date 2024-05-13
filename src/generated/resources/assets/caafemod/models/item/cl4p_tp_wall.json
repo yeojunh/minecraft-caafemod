@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "caafemod:block/cl4p_tp_block"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "caafemod:block/cl4p_tp_block"
+  }
+}

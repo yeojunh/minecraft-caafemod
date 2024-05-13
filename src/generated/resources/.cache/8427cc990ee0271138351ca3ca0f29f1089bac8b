@@ -1,4 +1,8 @@
-// 1.20.4	2024-05-12T01:30:31.68701	Tags for minecraft:block mod id caafemod
+// 1.20.4	2024-05-13T01:50:26.390091	Tags for minecraft:block mod id caafemod
 cb28339548a9f5c43f81c4715df14c62d24020ad data/caafemod/tags/blocks/metal_detector_valuables.json
+c54ec07f7763ea7e921a17bec1e6cb47648ce7d4 data/minecraft/tags/blocks/fence_gates.json
+04912ed9440821ea78e0e994da913ea23a30b25c data/minecraft/tags/blocks/fences.json
 e3c17d2b853db0f5102e0faa6f991a0d55147a5a data/minecraft/tags/blocks/mineable/axe.json
+37c78b091ebd0ab283c2a0e76cbde9617c2e8f89 data/minecraft/tags/blocks/mineable/pickaxe.json
 3c80e83f48a9392c582212858c57d9d869d89f74 data/minecraft/tags/blocks/needs_iron_tool.json
+863b9b4f55d87355862af07dd342ac889ea88828 data/minecraft/tags/blocks/walls.json

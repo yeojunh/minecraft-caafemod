@@ -14,5 +14,16 @@
   "block.caafemod.sound_block": "Sound Block",
   "tooltip.caafemod.sound_block.tooltip": "Makes sounds when right-clicked",
 
+  "block.caafemod.cl4p_tp_block": "CL4P-TP Block",
+  "block.caafemod.cl4p_tp_stairs": "CL4P-TP Stairs",
+  "block.caafemod.cl4p_tp_slab": "CL4P-TP Slab",
+  "block.caafemod.cl4p_tp_button": "CL4P-TP Button",
+  "block.caafemod.cl4p_tp_pressure_plate": "CL4P-TP Pressure Plate",
+  "block.caafemod.cl4p_tp_fence": "CL4P-TP Fence",
+  "block.caafemod.cl4p_tp_fence_gate": "CL4P-TP Fence Gate",
+  "block.caafemod.cl4p_tp_wall": "CL4P-TP Wall",
+  "block.caafemod.cl4p_tp_door": "CL4P-TP Door",
+  "block.caafemod.cl4p_tp_trapdoor": "CL4P-TP Trapdoor",
+
   "creativetab.caafemod_tab": "Caafe Mod Tab"
 }

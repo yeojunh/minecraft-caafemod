@@ -1,4 +1,8 @@
-// 1.20.4	2024-05-12T01:21:21.730061	Item Models: caafemod
+// 1.20.4	2024-05-13T01:50:26.383976	Item Models: caafemod
+1a91517c62e3ff1890d4aa996635e27df57ae079 assets/caafemod/models/item/cl4p_tp_button.json
+e277b9a83fd64aac82d4a98ad34bb4d4247faa82 assets/caafemod/models/item/cl4p_tp_door.json
+8b1f7c8b604daccef83381674949962034384868 assets/caafemod/models/item/cl4p_tp_fence.json
+ceaaa2fc5decd85e1202130abe385794e036b3ad assets/caafemod/models/item/cl4p_tp_wall.json
 ea6f129cc679d23a45c54fa6ea4d9c632c6693fa assets/caafemod/models/item/coffee_bean.json
 1bb13c86ca44e826b31bdd6ff5bd897af2c79dcf assets/caafemod/models/item/cup_of_coffee.json
 d4c2b3127b87630765222cd296ec3ea5c6bff25d assets/caafemod/models/item/empty_cup.json

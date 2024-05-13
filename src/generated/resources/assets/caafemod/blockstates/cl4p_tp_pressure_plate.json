@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "caafemod:block/cl4p_tp_pressure_plate"
+    },
+    "powered=true": {
+      "model": "caafemod:block/cl4p_tp_pressure_plate_down"
+    }
+  }
+}

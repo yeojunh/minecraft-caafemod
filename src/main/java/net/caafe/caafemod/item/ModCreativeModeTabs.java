@@ -33,6 +33,23 @@ public class ModCreativeModeTabs {
                         // other
                         pOutput.accept((ModItems.METAL_DETECTOR.get()));
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
+
+                        // CL4P-TP units
+                        pOutput.accept(ModBlocks.CL4P_TP_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.CL4P_TP_STAIRS.get());
+                        pOutput.accept(ModBlocks.CL4P_TP_SLAB.get());
+
+                        pOutput.accept(ModBlocks.CL4P_TP_BUTTON.get());
+                        pOutput.accept(ModBlocks.CL4P_TP_PRESSURE_PLATE.get());
+
+                        pOutput.accept(ModBlocks.CL4P_TP_FENCE.get());
+                        pOutput.accept(ModBlocks.CL4P_TP_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.CL4P_TP_WALL.get());
+
+                        pOutput.accept(ModBlocks.CL4P_TP_DOOR.get());
+                        pOutput.accept(ModBlocks.CL4P_TP_TRAPDOOR.get());
+
                     })
                     .build());
 

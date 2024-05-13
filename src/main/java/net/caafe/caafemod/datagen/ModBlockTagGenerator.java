@@ -6,6 +6,7 @@ import net.caafe.caafemod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -37,12 +38,37 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                     ModBlocks.SOUND_BLOCK.get()
                 );
 
+        this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(
+                    ModBlocks.CL4P_TP_BLOCK.get(),
+                    ModBlocks.CL4P_TP_BLOCK.get(),
+                    ModBlocks.CL4P_TP_STAIRS.get(),
+                    ModBlocks.CL4P_TP_SLAB.get(),
+                    ModBlocks.CL4P_TP_BUTTON.get(),
+                    ModBlocks.CL4P_TP_PRESSURE_PLATE.get(),
+                    ModBlocks.CL4P_TP_DOOR.get(),
+                    ModBlocks.CL4P_TP_TRAPDOOR.get(),
+                    ModBlocks.CL4P_TP_FENCE.get(),
+                    ModBlocks.CL4P_TP_FENCE_GATE.get(),
+                    ModBlocks.CL4P_TP_WALL.get()
+                );
+
         // minecraft/tags/blocks needs_xxx_tool.json equivalent
         this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.SOUND_BLOCK.get());
+                .add(
+                    ModBlocks.SOUND_BLOCK.get()
+                );
 
         // metal detector tags (custom items) equivalent
         this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
                 .addTag(Tags.Blocks.ORES);
+
+        // make fences and walls connect
+        this.tag(BlockTags.FENCES)
+                .add(ModBlocks.CL4P_TP_FENCE.get());
+        this.tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.CL4P_TP_FENCE_GATE.get());
+        this.tag(BlockTags.WALLS)
+                .add(ModBlocks.CL4P_TP_WALL.get());
     }
 }

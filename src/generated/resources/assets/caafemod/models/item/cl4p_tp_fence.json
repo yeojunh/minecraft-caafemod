@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "caafemod:block/cl4p_tp_block"
+  }
+}

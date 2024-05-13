@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "caafemod:block/cl4p_tp_block",
+    "side": "caafemod:block/cl4p_tp_block",
+    "top": "caafemod:block/cl4p_tp_block"
+  }
+}

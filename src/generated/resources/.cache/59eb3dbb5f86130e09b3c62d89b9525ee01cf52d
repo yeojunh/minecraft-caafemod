@@ -1,4 +1,14 @@
-// 1.20.4	2024-05-12T01:21:21.731868	Loot Tables
+// 1.20.4	2024-05-13T01:27:01.951334	Loot Tables
 05df6623de4a76953ad20347f2e1b747747d947b data/caafemod/loot_tables/blocks/block_of_coffee_beans.json
 8e5fa62e3f8cbcb0999e85a53527f7976bc6b0d1 data/caafemod/loot_tables/blocks/block_of_roasted_coffee_beans.json
+261c23f852ebbaa3d1639c3454d4d366dcdc438e data/caafemod/loot_tables/blocks/cl4p_tp_block.json
+7ba95963ef8d9b0aea6d637fcf13daeb98f56526 data/caafemod/loot_tables/blocks/cl4p_tp_button.json
+497ab2ea8bdf44151f29cbaef321ca26ca08faaa data/caafemod/loot_tables/blocks/cl4p_tp_door.json
+0e5abd0e112a0d156a22dabe69246148dafdd937 data/caafemod/loot_tables/blocks/cl4p_tp_fence.json
+c8a161eee6611085e3df4d0d2b3bf94af7570a78 data/caafemod/loot_tables/blocks/cl4p_tp_fence_gate.json
+ab9787d0c6bb0369cc02d23b7679ab1a0e8efbed data/caafemod/loot_tables/blocks/cl4p_tp_pressure_plate.json
+4a0fb3866a6d7a62b83ed494e214ca358c57786d data/caafemod/loot_tables/blocks/cl4p_tp_slab.json
+67ff3b34c8e359214325e171592cd0bc2475df49 data/caafemod/loot_tables/blocks/cl4p_tp_stairs.json
+4794d9be15574b25ba2329c0e3e6a797c9206915 data/caafemod/loot_tables/blocks/cl4p_tp_trapdoor.json
+f1511f5aabbd966e37de006a8a236d53f400814c data/caafemod/loot_tables/blocks/cl4p_tp_wall.json
 cb84534416cda1bdfba3a0a47188db0641e07299 data/caafemod/loot_tables/blocks/sound_block.json
